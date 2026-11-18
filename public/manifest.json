@@ -1,0 +1,17 @@
+{
+  "short_name": "Tusker.AI",
+  "name": "Tusker.AI - Wild Elephant Detection & Conflict Mitigation System",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#060A08",
+  "theme_color": "#0B130E",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Real-time AI detection, early warning alerts, and GIS tracking for wild elephants in Sri Lanka."
+}

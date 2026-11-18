@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#121614"/>
+  
+  <!-- Railway Track Line (Non-heated dark metal rails and gravel bed) -->
+  <line x1="0" y1="340" x2="480" y2="0" stroke="#222825" stroke-width="20"/>
+  <line x1="0" y1="340" x2="480" y2="0" stroke="#3A423E" stroke-width="4"/>
+  <line x1="12" y1="348" x2="492" y2="8" stroke="#3A423E" stroke-width="4"/>
+  
+  <!-- Sleepers / Ties along Railway Track -->
+  <line x1="40" y1="310" x2="52" y2="300" stroke="#1A201D" stroke-width="3"/>
+  <line x1="100" y1="265" x2="112" y2="255" stroke="#1A201D" stroke-width="3"/>
+  <line x1="160" y1="220" x2="172" y2="210" stroke="#1A201D" stroke-width="3"/>
+  <line x1="220" y1="175" x2="232" y2="165" stroke="#1A201D" stroke-width="3"/>
+  <line x1="280" y1="130" x2="292" y2="120" stroke="#1A201D" stroke-width="3"/>
+
+  <!-- Fence Posts -->
+  <line x1="60" y1="0" x2="190" y2="400" stroke="#1E2421" stroke-width="2"/>
+  <line x1="140" y1="0" x2="270" y2="400" stroke="#1E2421" stroke-width="2"/>
+
+  <!-- Thermal Heat Signatures (ONLY 6 Elephants + Calves - NO Railway Track Heat) -->
+  <defs>
+    <radialGradient id="elephantHeat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#E8F2EC" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#88AC98" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#121614" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Group 1: Elephant #1 & Calf #1 -->
+  <ellipse cx="370" cy="285" rx="34" ry="24" fill="url(#elephantHeat)"/>
+  <ellipse cx="370" cy="285" rx="25" ry="17" fill="#FFFFFF"/>
+  
+  <ellipse cx="418" cy="310" rx="19" ry="14" fill="url(#elephantHeat)"/>
+  <ellipse cx="418" cy="310" rx="13" ry="9" fill="#FFFFFF"/>
+
+  <!-- Group 2: Elephant #2 -->
+  <ellipse cx="435" cy="280" rx="26" ry="19" fill="url(#elephantHeat)"/>
+  <ellipse cx="435" cy="280" rx="19" ry="13" fill="#FFFFFF"/>
+
+  <!-- Group 3: Distant Herd (Elephant #3, #4, #5 & Calf #2) -->
+  <ellipse cx="480" cy="200" rx="24" ry="17" fill="url(#elephantHeat)"/>
+  <ellipse cx="480" cy="200" rx="17" ry="11" fill="#FFFFFF"/>
+
+  <ellipse cx="540" cy="220" rx="27" ry="19" fill="url(#elephantHeat)"/>
+  <ellipse cx="540" cy="220" rx="19" ry="13" fill="#FFFFFF"/>
+
+  <ellipse cx="570" cy="235" rx="17" ry="13" fill="url(#elephantHeat)"/>
+  <ellipse cx="570" cy="235" rx="11" ry="8" fill="#FFFFFF"/>
+</svg>
